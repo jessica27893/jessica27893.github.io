@@ -7,12 +7,7 @@ div.poster{
     width:75%;
 
 }
-div.container{
-display: flex;
-}
-div.col{
-border: 1px solid cyan;
-}
+
 div.text{
     font-size:60px;
     font-family:arial;
@@ -26,7 +21,6 @@ div.text{
 
 div.text.one {
     font-size:30px;
-    background-color: antiquewhite;
 }
 
 div.text.two{

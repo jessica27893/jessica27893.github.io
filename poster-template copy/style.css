@@ -1,33 +1,27 @@
 body{
-    background-color: rgb(3, 3, 3);
+    background-image: radial-gradient(#ff8a00,#daa392);
+    background-image: radial-gradient(circle at top right, #ff8a00, rgb(219, 171, 163), #eec0d1);
 }
 
 div.poster{
-    background-color:rgb(226, 185, 185);
-    width:100%;
-    background-image:url('scan.jpeg');
+    background-image:url('IMG_1133.jpg');
     background-repeat:no-repeat;
-    background-size:200px;
+    background-size:1100px;
     background-position:center center;
 
 }
 
 div.text{
     font-size:60px;
-    font-family:arial narrow;
+    font-family:chalkduster;
     text-align:left;
-    color:rgb(3, 3, 3);
+    color:rgb(202, 81, 81);
     transition:0.5s;
 }
 
 .container{
     display:flex;
     flex-wrap:wrap;
-}
-
-
-.col{
-  
 }
 
 .text-red{

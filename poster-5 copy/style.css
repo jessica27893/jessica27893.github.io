@@ -1,24 +1,39 @@
 body{
-    background-color: red;
+    background-image: linear-gradient(to bottom right,#345655,#ececd1);
 }
 
-div.poster{
-    background-color:white;
-    width:75%;
-
-}
 div.container{
-display: flex;
+    display: flex;
+    flex-wrap: wrap;
 }
-div.col{
-border: 1px solid cyan;
+
+div.logo{
+    font-size: 60px;
 }
+
+div.w1-4{
+    width:25%;
+}
+
+div.w2-4{
+    width:50%;
+}
+
+div.w3-4{
+    width:75%;
+}
+
+div.w4-4{
+    width:100%;
+}
+
+
 div.text{
     font-size:60px;
-    font-family:arial;
+    font-family:trattatello;
     text-align:center;
-    color:red;
-    -webkit-text-stroke:2px black;
+    color:#ebe1bd;
+    -webkit-text-stroke:3px #345655;
     transition:0.5s;
 }
 
@@ -26,7 +41,6 @@ div.text{
 
 div.text.one {
     font-size:30px;
-    background-color: antiquewhite;
 }
 
 div.text.two{
@@ -40,20 +54,20 @@ div.text.three{
 /* rule 2 */
 
 div.text.a{
-    color:blue;
+    color:#ecf7ea;
 }
 
 div.text.b{
-    color:yellow;
+    color:#ebe1bd;
 }
 
 div.text.c{
-    color:lime;
+    color:#345655;
 }
 
 div.small{
     font-size: 20px;
-    color:red;
+    color:#ebe1bd;
     text-align:center;
 
 }

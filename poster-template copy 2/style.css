@@ -5,7 +5,7 @@ body{
 div.poster{
     background-image: radial-gradient(#ff8a00, #e52e71);
     background-image: radial-gradient(circle at top right, #ff8a00, red, #e52e71);
-    width:100%;
+    width: 100%px;
     background-image:url('IMG_1537.jpg');
     background-repeat:no-repeat;
     background-size:200px;

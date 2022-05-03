@@ -1,0 +1,116 @@
+body{
+    background-color: pink;
+}
+
+div.poster{
+    background-image: radial-gradient(#ff8a00, #e52e71);
+    background-image: radial-gradient(circle at top right, #ff8a00, red, #e52e71);
+    width:100%;
+    background-image:url('IMG_1537.jpg');
+    background-repeat:no-repeat;
+    background-size:200px;
+    background-position:center center;
+
+}
+
+div.text{
+    font-size:60px;
+    font-family:zapfino;
+    text-align:left;
+    color:rgb(238, 73, 73);
+    transition:0.5s;
+    text-shadow:
+       0px 10px 0px pink,
+       0px 25px 0px rgb(238, 73, 73);
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.col{
+  
+}
+
+.text-red{
+    color:red
+}
+
+.text-blue{
+    color:blue
+}
+
+.text-yellow{
+    color:yellow
+}
+
+.w1-2{
+    width:50%
+}
+
+
+/* rule 1 */
+
+div.text.one {
+    font-size:40px;
+}
+
+div.text.two{
+    font-size:80px;
+}
+
+div.text.three{
+   font-size:120px;
+}
+
+/* rule 2 */
+
+div.text.a{
+    background-image:url('IMG_1537.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center center;
+}
+
+div.text.b{
+    background-image:url('IMG_1537.jpg');
+    background-repeat:no-repeat;
+    background-size:300px;
+    background-position:top right;
+    color:transparent;
+   
+}
+
+div.text.c{
+    background-image:url('IMG_1537.jpg');
+    background-repeat:no-repeat;
+    background-size:300px;
+    background-position:top left;
+}
+
+div.small{
+    font-size: 20px;
+    color:red;
+    text-align:center;
+
+}
+
+div.center{
+    text-align:center;
+}
+
+/* rule 3 */
+
+div.text.x{
+    text-align:right;
+}
+
+div.text.y{
+    text-align:left;
+}
+
+div.text.z{
+    text-align:center;
+}

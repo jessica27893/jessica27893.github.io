@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(#79a5cd,#f7fafc);
+    background-image: linear-gradient(to right,#e3e5e5, #bfcfe1, #79a5c6);
+    background-image: linear-gradient(40deg, #e5b89a 60%, #bfcfe1);
+}
+
+div.poster{
+    background-color:white;
+    width:75%;
+
+}
+
+div.text{
+    font-size:60px;
+    font-family:snell roundhand;
+    text-align:center;
+    color:#a6cdcd;
+    -webkit-text-stroke:2px #070707;
+    transition:0.5s;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:30px;
+}
+
+div.text.two{
+    font-size:60px;
+}
+
+div.text.three{
+    font-size:160px;
+}
+
+/* rule 2 */
+
+div.text.a{
+    color:#030303;
+    transform: rotate(10deg);
+}
+
+div.text.b{
+    color:#030303;
+    transform: rotate(-10deg);
+}
+
+div.text.c{
+    color:#020202;
+    transform: rotate(10deg);
+}
+
+div.small{
+    font-size: 20px;
+    color:#79a5c6;
+    text-align:center;
+
+}
+
+div.center{
+    text-align:center;
+}
+
+/* rule 3 */
+
+div.text.x{
+    text-align:right;
+    background-color: #d5c4b4;
+}
+
+div.text.y{
+    text-align:left;
+    background-color:#e5b89a;
+}
+
+div.text.z{
+    text-align:center;
+    background-color:#bfcfe1;
+}

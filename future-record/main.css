@@ -1,0 +1,169 @@
+body {
+    background-image: linear-gradient(to bottom right,#d2d5dc,#514e61);
+    font-family:arial;
+    font-size:24px;
+}
+
+a{
+    color:gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color:orange;
+}
+
+img{
+    width:100%;
+
+}
+
+div.header {
+    display:flex;
+    flex-wrap:wrap;
+    box-shadow: 30px 0px 30px gray;
+    border-bottom:1px solid white;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    background-color:#bbbed4;
+}
+
+div.header a {
+    color:white;
+}
+
+div.logo{
+    padding:10px;
+    width: 50%;
+}
+
+div.nav {
+    padding:10px;
+    width: 50%;
+}
+
+div.masthead {
+    font-size:35vw;
+    line-height:35vw;
+    font-family:phosphate;
+    text-align:center;
+    color:#bbbed4;
+    text-shadow:
+    0px 10px 0px white,
+    0px 25px 0px #bbbed4,
+    0px 30px 0px white;
+}
+
+div.about {
+    font-family:Pt serif;
+    font-size: 40px;
+    color:whitesmoke;
+    line-height:4vw;
+    letter-spacing:2px;
+}
+
+div.footnote{ 
+     display:flex;
+     flex-wrap:wrap;
+     padding:20px;
+     border-top:5px solid whitesmoke;
+     color:azure
+}
+
+div.note{
+      width:33.333%;
+      padding:20px;
+      font-size:16px;
+      font-weight: bold;
+      color:white;
+}
+
+div.title{
+    font-size: 144px;
+    font-weight: bold;
+    letter-spacing:-5px;
+    color:#bbbed4;
+    text-align: center;
+    margin-top:100px;
+    text-shadow:
+    0px 10px 0px white;
+
+    
+}
+
+div.keywords{
+    font-size:72px;
+    font-family:times;
+    text-align: center;
+    color: azure;
+}
+
+div.container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+}
+
+div.item{
+    width:33.333%;
+    background-color: white;
+}
+
+div.item.pushright{
+    margin-right:33.333%;
+}
+
+div.item.larger{
+    width:50%;
+}
+
+a.button{
+    background-color:#bbbed4;
+    color:white;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:3px;
+    padding-bottom:3px;
+    border-radius:20px;
+}
+
+div.item a{
+    background-color:#bbbed4;
+    color:#bbbed4(95, 90, 90);
+
+}
+
+div.number{
+    font-size:72px;
+}
+
+div.featureimage{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+div.title.blue{
+    color: gray;
+} 
+
+div.about.blue{
+    color:gray;
+}
+
+div.logo{
+    color:white;
+    font-family:impact;
+}
+
+div.nav{
+    color:white;
+    font-family:impact;
+}
+
+div.featureimage{
+    color:whitesmoke;
+}

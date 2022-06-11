@@ -1,0 +1,19 @@
+dazzleship
+
+header
+
+     logo
+     nav
+title
+featuredimage
+about
+footnotes
+    note title
+    note desc
+    note outgoing link
+        a
+container
+    item
+        image
+        paragraph
+footer
